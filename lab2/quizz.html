@@ -18,27 +18,74 @@
     <form action="mailto:joaoanacleto331@gmail.com" method="post" enctype="multipart/form-data">
 
         <fieldset>
-            Quizz sobre Cancún
+            <legend>Quizz</legend>
+            <p>
+            <fieldset style="background-color: #e8f0ec;">
+                Info
+                <p>
+                <fieldset style="background-color: aliceblue ;">
+                    Nome
+                    <input type="text" name="Nome" value="" />
+                </fieldset>
+                </p>
+                <p>
+                <fieldset style="background-color: aliceblue;">
+                    Apelido
+                    <input type="text" name="Apelido" value="" />
+                </fieldset>
+                </p>
+                <p>
+                <fieldset style="background-color: aliceblue;">
+                    Email
+                    <input type="email" name="email" id="">
+                </fieldset>
+                </p>
+            </fieldset>
 
             <p>
-            <fieldset>Info </fieldset>
-            <fieldset>
-                Nome
-                <input type="text" name="Nome" value="" />
-            </fieldset>
-            <fieldset>
-                Apelido
-                <input type="text" name="Apelido" value="" />
-            </fieldset>
-            <fieldset>
-                Email
-                <input type="email" name="email" id="">
+            <fieldset style="background-color: #e8f0ec;">
+                Perguntas
+                <p>
+                <fieldset style="background-color: aliceblue;">
+                    1️⃣ Qual é a capital do méxico?
+                    <input type="text" id="cidade" required minlength="4" maxlength="20" size="20">
+                </fieldset>
+                </p>
+
+                <p>
+                    
+                <fieldset style="background-color: aliceblue;">
+                    <legend>2️⃣ Em que estado fica situada a cidade de Cancún? (seleciona a opção correta):</legend>
+                    <div>
+                        <input type="radio" id="yucatan" name="estadoUm"  value="yucatan">
+                        <label for="yucatan">Yucatán</label><br>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="chiapas" name="estadoDois" value="chiapas">
+                        <label for="chiapas">Chiapas</label><br>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="quintana" name="estadoTres" value="quintana">
+                        <label for="quintana">Quintana Roo</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="jalisco" name="estadoQuatro" value="jalisco">
+                        <label for="jalisco">Jalisco</label>
+                    </div>
+                </fieldset>
+
+                </p>
+
+
+
             </fieldset>
 
-            <fieldset>
-                Perguntas
-                
-            </fieldset>
+            </p>
+
+
+
             </p>
 
         </fieldset>
