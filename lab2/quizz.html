@@ -18,231 +18,243 @@
 
     <nav>
         <p>
-          <a href="index.html">Pagina Inicial</a><b></b>
-          <a href="html5-css.html">HTML5 e CSS</a>
+            <a href="index.html">Introdução</a><b></b>
+            <a href="local.html">Localização</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="info.html">Informação</a>
+            <a href="quizz.html">Quizz</a>
+            <a href="html5-css.html">HTML5 e CSS</a>
         </p>
-      </nav>
+    </nav>
 
-    <form action="mailto:joaoanacleto331@gmail.com" method="post" enctype="multipart/form-data">
+    <main>
 
-        <fieldset style="border: #e8f0ec;">
-            <legend style="color: #6096B4;">
-                <h3><b>🏖️🏖️🏖️ Quizz sobre uma bela cidade para passar férias 🏖️🏖️🏖️</b></h3>
-            </legend>
+        <form action="mailto:joaoanacleto331@gmail.com" method="post" enctype="multipart/form-data">
 
-            <fieldset style="background-color: #e8f0ec;border-style:double;border-color: black;">
-                Informação pessoal
-                <p>
-                <fieldset style="background-color: aliceblue ;">
-                    Nome
-                    <input type="text" required=" obrigatório" name="Nome" value="" autofocus />
+            <fieldset style="border: #e8f0ec;">
+                <legend style="color: #6096B4;">
+                    <h3><b>🏖️🏖️🏖️ Quizz sobre uma bela cidade para passar férias 🏖️🏖️🏖️</b></h3>
+                </legend>
+
+                <fieldset style="background-color: #e8f0ec;border-style:double;border-color: black;">
+                    Informação pessoal
+                    <p>
+                    <fieldset style="background-color: aliceblue ;">
+                        Nome
+                        <input type="text" required=" obrigatório" name="Nome" value="" autofocus />
+                    </fieldset>
+                    </p>
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        Apelido
+                        <input type="text" required=" obrigatório" name="Apelido" value="" />
+                    </fieldset>
+                    </p>
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        Email
+                        <input type="email" required=" obrigatório" name="email" id="" pattern=".+@gmail\.com" required>
+                    </fieldset>
+                    </p>
                 </fieldset>
-                </p>
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    Apelido
-                    <input type="text" required=" obrigatório" name="Apelido" value="" />
-                </fieldset>
-                </p>
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    Email
-                    <input type="email" required=" obrigatório" name="email" id="" pattern=".+@gmail\.com" required>
-                </fieldset>
-                </p>
-            </fieldset>
-
-            <p>
-            <fieldset style="background-color: #e8f0ec;border-style:double;border-color: black;">
-                Perguntas
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❶ Qual é o nome da cidade abordada neste website?</legend>
-                    <input type="text" id="cidade" required minlength="4" maxlength="20" size="50">
-                </fieldset>
-                </p>
 
                 <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❷ O que há para fazer em Cancún (seleciona as opções corretas):</legend>
+                <fieldset style="background-color: #e8f0ec;border-style:double;border-color: black;">
+                    Perguntas
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❶ Qual é o nome da cidade abordada neste website?</legend>
+                        <input type="text" id="cidade" required minlength="4" maxlength="20" size="50">
+                    </fieldset>
+                    </p>
 
-                    <div>
-                        <input type="radio" id="praia" name="estado" value="praiaa" />
-                        <label for="praia">Ficar na praia</label><br>
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❷ O que há para fazer em Cancún (seleciona as opções corretas):</legend>
 
-                        <input type="radio" id="nada" name="estado" value="nadaa" />
-                        <label for="nada">Nada</label><br>
+                        <div>
+                            <input type="radio" id="praia" name="estado" value="praiaa" />
+                            <label for="praia">Ficar na praia</label><br>
 
-                        <input type="radio" id="arq" name="estado" value="arqq" />
-                        <label for="arq">Visitar locais arqueológicos</label><br>
+                            <input type="radio" id="nada" name="estado" value="nadaa" />
+                            <label for="nada">Nada</label><br>
 
-                        <input type="radio" id="foods" name="estado" value="fooods" />
-                        <label for="foods">Provar novas comidas</label>
-                    </div>
-                </fieldset>
-                </p>
+                            <input type="radio" id="arq" name="estado" value="arqq" />
+                            <label for="arq">Visitar locais arqueológicos</label><br>
 
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❸ Onde fica localizado Cancún (seleciona a única opção correta):</legend>
+                            <input type="radio" id="foods" name="estado" value="fooods" />
+                            <label for="foods">Provar novas comidas</label>
+                        </div>
+                    </fieldset>
+                    </p>
 
-                    <div>
-                        <input type="checkbox" id="can" name="cancun" checked>
-                        <label for="can">Cancún</label>
-                    </div>
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❸ Onde fica localizado Cancún (seleciona a única opção correta):</legend>
 
-                    <div>
-                        <input type="checkbox" id="mex" name="mexico">
-                        <label for="mex">Mexico</label>
-                    </div>
+                        <div>
+                            <input type="checkbox" id="can" name="cancun" checked>
+                            <label for="can">Cancún</label>
+                        </div>
 
-                    <div>
-                        <input type="checkbox" id="quintanaR" name="quintanaroo">
-                        <label for="quintanaR">Quintana Roo, Mexico</label>
-                    </div>
+                        <div>
+                            <input type="checkbox" id="mex" name="mexico">
+                            <label for="mex">Mexico</label>
+                        </div>
 
-                    <div>
+                        <div>
+                            <input type="checkbox" id="quintanaR" name="quintanaroo">
+                            <label for="quintanaR">Quintana Roo, Mexico</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="nenhuma" name="nenhuma">
+                            <label for="nenhuma">Nenhuma das opções acima</label>
+                        </div>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❹ Seleciona a data em que a cidade de Cancún foi fundada?</legend>
+                        <input type="date" name="dataFund" id="data" value="1970-00-00" min="1970-01-01"
+                            max="1970-12-31">>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❺ Qual das seguintes bandeiras é a bandeira do México?</legend>
+
+                        <input type="image" id="image" alt="mexico" src="images/mexicoflag.png" width="120"
+                            height="100">
                         <input type="checkbox" id="nenhuma" name="nenhuma">
-                        <label for="nenhuma">Nenhuma das opções acima</label>
-                    </div>
+
+                        <input type="image" id="image" alt="mexico" src="images/bandeira-brasil.png.jpg" width="120"
+                            height="100">
+                        <input type="checkbox" id="nenhuma" name="nenhuma">
+
+                        <input type="image" id="image" alt="mexico" src="images/euaflag.png" width="120" height="100">
+                        <input type="checkbox" id="nenhuma" name="nenhuma">
+
+                        <input type="image" id="image" alt="mexico" src="images/argentinaflag.png" width="120"
+                            height="100">
+                        <input type="checkbox" id="nenhuma" name="nenhuma">
+
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❻ Imagina que vais de férias para Cancún, seleciona a primeira cor que te vem à cabeça
+                            quando pensas nessa cidade:
+                        </legend>
+                        <div>
+                            <label for="cor">Seleciona a cor :</label>
+                            <input type="color" id="cor" name="head">
+                        </div>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❼ De 0 a 10 seleciona a tua vontade de visitar Cancún:</legend>
+                        <input type="number" name="vontadeDeVisitar" id="vontade" min="0" max="10">
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>➑ Cancún é um sitio muito quente ou muito frio? Move o range consoante a tua escolha :)
+                        </legend>
+                        <label for="temp">❄️</label>
+                        <input type="range" name="rangeTemperatura" id="temp">
+                        <label for="temp">☀️</label>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❾ Qual a lingua oficial em Cancún?</legend>
+                        <label for="linguaFalada">Escolhe a lingua:</label>
+                        <select name="qq" id="linguaFalada">
+                            <option value="">--Por favor escolha uma opção--</option>
+                            <option value="mexicano">Mexicano</option>
+                            <option value="espanhol">Espanhol</option>
+                            <option value="ingles">Ingles</option>
+                            <option value="portunhol">Portunhol</option>
+                            <option value="frances">Francês</option>
+                        </select>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>❿ Depois de uma breve pesquisa, destes locais qual o que ias mais gostar de visitar:
+                        </legend>
+                        <select name="options" multiple style="width: 1000px">
+                            <option value="">Playa del Carmen</option>
+                            <option value="">Parque Xcaret</option>
+                            <option value="">Chichen Itza</option>
+                            <option value="">Cenote Ik Kil</option>
+                        </select>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>⓫ Como é chamada a antiga cidade Maia em que Chichen Itza está localizada:</legend>
+                        <label for="myCitysList">Escolhe a cidade:</label>
+                        <input list="cidades" id="myCitysList" name="myCitysList" />
+                        <datalist id="cidades">
+                            <option value="Bob"></option>
+                            <option value="Acapulco"></option>
+                            <option value="Cancún"></option>
+                            <option value="NYIAI"></option>
+                            <option value="Mérida"></option>
+                            <option value="Tijuana"></option>
+                        </datalist>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>⓬ Se 2 + 2 = 4 então quanto é Can + Cún ? (seleciona a opção correta)</legend>
+
+                        <div>
+                            <input type="radio" id="c1" name="cc" value="cancun1" />
+                            <label for="c1">CANCUN</label><br>
+
+                            <input type="radio" id="c2" name="cc" value="cancun2" />
+                            <label for="c2">Cancún</label><br>
+
+                            <input type="radio" id="c3" name="cc" value="cancun3" />
+                            <label for="c3">CanCún</label><br>
+
+                            <input type="radio" id="c4" name="cc" value="cancun4" />
+                            <label for="c4">CanCun</label>
+                        </div>
+                    </fieldset>
+                    </p>
+
+                    <p>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend>⓭ O que achaste deste <b>quizz</b>, escreve um comentário na caixa abaixo:</legend>
+                        <textarea id="story" name="comentário" rows="10"
+                            cols="100">Gostastes do Quizz, sim ou não? E porquê?:</textarea>
+                    </fieldset>
+                    </p>
+
                 </fieldset>
-                </p>
 
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❹ Seleciona a data em que a cidade de Cancún foi fundada?</legend>
-                    <input type="date" name="dataFund" id="data" value="1970-00-00" min="1970-01-01" max="1970-12-31">>
-                </fieldset>
-                </p>
+                <input type="submit" value="Submeter 🏖️Quizz">
 
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❺ Qual das seguintes bandeiras é a bandeira do México?</legend>
-
-                    <input type="image" id="image" alt="mexico" src="images/mexicoflag.png" width="120" height="100">
-                    <input type="checkbox" id="nenhuma" name="nenhuma">
-
-                    <input type="image" id="image" alt="mexico" src="images/bandeira-brasil.png.jpg" width="120"
-                        height="100">
-                    <input type="checkbox" id="nenhuma" name="nenhuma">
-
-                    <input type="image" id="image" alt="mexico" src="images/euaflag.png" width="120" height="100">
-                    <input type="checkbox" id="nenhuma" name="nenhuma">
-
-                    <input type="image" id="image" alt="mexico" src="images/argentinaflag.png" width="120" height="100">
-                    <input type="checkbox" id="nenhuma" name="nenhuma">
-
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❻ Imagina que vais de férias para Cancún, seleciona a primeira cor que te vem à cabeça quando pensas nessa cidade:
-                    </legend>
-                    <div>
-                        <label for="cor">Seleciona a cor :</label>
-                        <input type="color" id="cor" name="head">
-                    </div>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❼ De 0 a 10 seleciona a tua vontade de visitar Cancún:</legend>
-                    <input type="number" name="vontadeDeVisitar" id="vontade" min="0" max="10">
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>➑ Cancún é um sitio muito quente ou muito frio? Move o range consoante a tua escolha :)
-                    </legend>
-                    <label for="temp">❄️</label>
-                    <input type="range" name="rangeTemperatura" id="temp">
-                    <label for="temp">☀️</label>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❾ Qual a lingua oficial em Cancún?</legend>
-                    <label for="linguaFalada">Escolhe a lingua:</label>
-                    <select name="qq" id="linguaFalada">
-                        <option value="">--Por favor escolha uma opção--</option>
-                        <option value="mexicano">Mexicano</option>
-                        <option value="espanhol">Espanhol</option>
-                        <option value="ingles">Ingles</option>
-                        <option value="portunhol">Portunhol</option>
-                        <option value="frances">Francês</option>
-                    </select>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>❿ Depois de uma breve pesquisa, destes locais qual o que ias mais gostar de visitar:
-                    </legend>
-                    <select name="options" multiple style="width: 1000px">
-                        <option value="">Playa del Carmen</option>
-                        <option value="">Parque Xcaret</option>
-                        <option value="">Chichen Itza</option>
-                        <option value="">Cenote Ik Kil</option>
-                    </select>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>⓫ Como é chamada a antiga cidade Maia em que Chichen Itza está localizada:</legend>
-                    <label for="myCitysList">Escolhe a cidade:</label>
-                    <input list="cidades" id="myCitysList" name="myCitysList" />
-                    <datalist id="cidades">
-                        <option value="Bob"></option>
-                        <option value="Acapulco"></option>
-                        <option value="Cancún"></option>
-                        <option value="NYIAI"></option>
-                        <option value="Mérida"></option>
-                        <option value="Tijuana"></option>
-                    </datalist>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>⓬ Se 2 + 2 = 4 então quanto é Can + Cún ? (seleciona a opção correta)</legend>
-
-                    <div>
-                        <input type="radio" id="c1" name="cc" value="cancun1" />
-                        <label for="c1">CANCUN</label><br>
-
-                        <input type="radio" id="c2" name="cc" value="cancun2" />
-                        <label for="c2">Cancún</label><br>
-
-                        <input type="radio" id="c3" name="cc" value="cancun3" />
-                        <label for="c3">CanCún</label><br>
-
-                        <input type="radio" id="c4" name="cc" value="cancun4" />
-                        <label for="c4">CanCun</label>
-                    </div>
-                </fieldset>
-                </p>
-
-                <p>
-                <fieldset style="background-color: aliceblue;">
-                    <legend>⓭ O que achaste deste <b>quizz</b>, escreve um comentário na caixa abaixo:</legend>
-                    <textarea id="story" name="comentário"rows="10" cols="100">Gostastes do Quizz, sim ou não? E porquê?:</textarea>
-                </fieldset>
                 </p>
 
             </fieldset>
 
-            <input type="submit" value="Submeter 🏖️Quizz">
-
-            </p>
-
-        </fieldset>
-
-    </form>
+        </form>
+    </main>
 
 </body>
 
