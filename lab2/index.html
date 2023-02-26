@@ -8,6 +8,10 @@
   <meta name="author" content="João Anacleto" />
   <meta name="description" content="Website sobre Cancún" />
   <meta name="keywords" content="palavras chave" />
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+  </style>
 </head>
 
 <body>
@@ -17,23 +21,33 @@
     <br>
     <nav>
       <p>
-        <a href="index.html">Introdução</a><b></b>
-        <a href="local.html">Localização</a>
-        <a href="multimedia.html">Multimedia</a>
-        <a href="info.html">Informação</a>
-        <a href="quizz.html">Quizz</a>
-        <a href="html5-css.html">HTML5 e CSS</a>
+        <a href="index.html">🏡 Introdução</a><b></b>
+        <a href="local.html">🗺 Localização</a>
+        <a href="multimedia.html">📷 Multimedia</a>
+        <a href="info.html">ℹ️ Informação</a>
+        <a href="quizz.html">❓ Quizz</a>
+        <a href="html5-css.html">🇭🇨 HTML5 e CSS</a>
       </p>
     </nav>
 
     <section>
       <main>
         <h2>Introdução</h2>
-        <p>Principalmente devido à sua beleza natural e a sua riqueza histórica, Cancún se tornou um dos destinos
-          turísticos
-          mais procurados do mundo. <br> A cidade possui 22 quilômetros de praias.<br> Os hotéis localizados na zona
-          hoteleira são magníficos.</p>
+        <p>O objetivo deste website é dar-te a conhecer como é a cidade Cancún, porém o meu objetivo é fazer-te ir a
+          este local, suponho que a tua vontade de ir a esta cidade neste momento esteja assim:</p>
+        <label for="vontade"><b>A tua vontade neste momento (penso eu 🤷🏽‍♂️):</b></label>
+        <meter id="vontade" value="2" min="0" max="10">2 out of 10</meter><br>
+        <label for="vontadeDepoisDesteWebsite"><b>A tua vontade (espero eu 😅) depois de veres este website:</b></label>
+        <meter id="vontadeDepoisDesteWebsite" value="10" min="0" max="10">10 out of 10</meter>
         <p>
+        <details>
+          <summary>Hmmm...e porque é que eu escolhi Cancún 🤔</summary>
+          <p>Principalmente devido à sua beleza natural e a sua riqueza histórica, Cancún se tornou um dos destinos
+            turísticos
+            mais procurados do mundo. <br> A cidade possui 22 quilômetros de praias.<br> Os hotéis localizados na zona
+            hoteleira são magníficos.</p>
+        </details>
+        </p>
       </main>
 
     </section>
@@ -52,7 +66,10 @@
       <img src="images/wordcloud.jpg" alt="wordcloud">
     </section>
 
-
 </body>
+
+<footer>
+  <p><b>© 2023 João Anacleto</b></p>
+</footer>
 
 </html>

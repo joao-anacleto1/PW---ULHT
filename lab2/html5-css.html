@@ -1,15 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+
 <head>
   <meta charset="utf-8" />
   <title>Cancún</title>
   <meta name="author" content="João Anacleto" />
   <meta name="description" content="Website sobre Cancún" />
   <meta name="keywords" content="palavras chave" />
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
   <header>
     <h1>Cancún</h1>
     <img src="images/cancun.png" alt="Cancún" <br />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+    </style>
   </header>
 
   <nav>
@@ -23,29 +30,32 @@
     </p>
   </nav>
 
-  <h3>HTML5 e CSS</h3>
+  <h2>HTML5 e CSS</h2>
 
   <main>
     <section>
       <h4 style="color: rgb(71, 51, 255);">HTML5</h4>
-      <p>O HTML5 é a mais recente versão da linguagem de marcação HTML (Hypertext Markup Language), utilizada para
-        desenvolver e estruturar páginas da web. Lançado em 2014, o HTML5 trouxe diversas melhorias e novidades em
-        relação
-        às suas versões anteriores, permitindo a criação de sites mais <b>dinâmicos</b> e <b>interativos</b>.</p>
+
+      <article class="HTML5">
+        <p> O HTML5 é a mais recente versão da linguagem de marcação HTML (Hypertext Markup Language), utilizada para
+          desenvolver e estruturar páginas da web. Lançado em 2014, o HTML5 trouxe diversas melhorias e novidades em
+          relação
+          às suas versões anteriores, permitindo a criação de sites mais <b>dinâmicos</b> e <b>interativos</b>.</p>
+      </article>
 
       <section>
         <table bgcolor="black" width="700">
           <tr bgcolor="grey">
-            <th width="100">Elementos semânticos HTML5</th>
-            <th width="100">Usei, sim(👍🏻) ou não(👎🏻)?</th>
-            <th width="100">Breve descrição</th>
+            <th width="200">Elementos semânticos HTML5</th>
+            <th width="200">Usei, sim(👍🏻) ou não(👎🏻)?</th>
+            <th width="200">Breve descrição</th>
           </tr>
           <tr bgcolor="#6096B4">
             <td style="font-style: oblique;" align="center"><b>div</b></td>
             <td align="center">👍🏻</td>
             <td align="justify">Usei o <b>div</b> para agrupar conteúdo, no caso agrupar ou um conjunto de opções ou
               opções uma a uma.
-              Usei-o por exemplo para as perguntas de opção do quizz, como por exemplo a pergunta ❷ e ❸ ! </td>
+              Usei-o por exemplo para as perguntas de opção do quizz, como por exemplo a pergunta ❷ e ❸. </td>
           </tr>
           <tr bgcolor="#6096B4">
             <td style="font-style: oblique;" align="center"><b>h1...h6</b></td>
@@ -79,47 +89,68 @@
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>article</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei o <b>article</b> de forma a indicar uma porção do documento que pode ser vista
+              de forma independente, usu-o por exemplo nesta página quando dou uma breve introdução do que é o HTML5 e
+              apresento uma tabela sobre HTML5 e o mesmo acontece mais abaixo para o CSS.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>section</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>section`s</b> de forma a dividir os conteúdos por exemplo da página da
+              localização, em que uma section é um breve texto de onde a minha cidade se situa e a outra section é o
+              mapa do google maps.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>aside</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>aside</b> de forma a deixar uma sugestão/opinião no final do vídeo que
+              coloquei na Multimedia.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>footer</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>footer`s</b> para indicar o rodapé das minhas secções, utilizei em todas as
+              páginas de forma a criar um copyright.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>details</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>details</b> de forma a adicionar detalhes adicionais na pagina de Introdução
+              podendo o utilizador ver ou esconder. Estes estão contidos num elemento <b>summary</b>.</td>
+          </tr>
+          <tr bgcolor="#6096B4" align="justify">
+            <td style="font-style: oblique;" align="center"><b>meter</b></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>meter</b> para definir uma medida escalar estática dentro de um intervalo
+              usando a vontade que um utilizador terá antes de visitar Cancún sem ter visto o meu website e a vontade do
+              utilizador visitar Cancún depois de visitar o meu website, por completo.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>progress</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>progress</b> para definir uma barra de progresso do meu quizz, onde o
+              utilizador pode ver a que percentagem de progresso vai.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
             <td style="font-style: oblique;" align="center"><b>abbr</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>abbr</b> para indicar o significado da palavra XCARET, na minha página da
+              multimédia.</td>
           </tr>
           <tr bgcolor="#6096B4" align="justify">
-            <td style="font-style: oblique;" align="center"><b>adress</b></td>
-            <td align="center">👎🏻</td>
-            <td align="justify"></td>
+            <td style="font-style: oblique;" align="center"><b>address</b></td>
+            <td align="center">👍🏻</td>
+            <td align="justify">Utilizei <b>address</b> no final do meu quizz de forma a deixar uma informação sobre
+              como o utilizador me pode contactar, neste caso por email.</td>
           </tr>
         </table>
       </section>
   </main>
-
-
 </body>
+
+<footer>
+  <p><b>© 2023 João Anacleto</b></p>
+</footer>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif, monospace;
+}
+
+fieldset{
+    background-color: aliceblue ;
+}
+
+body{
+    background-color: rgb(129, 188, 218) ;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+h6{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+a::after {
+    content: '🧷';
+}
+
+a::before{
+    content: '🧷';
+}
+
+tr:nth-child(even){
+    background-color: #76bbe0;
+}
+
+tr:nth-child(odd){
+    background-color: #6096B4;
+}
+
+
