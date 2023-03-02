@@ -1,0 +1,90 @@
+* {
+  font-family: 'Changa', sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.divClass{
+    width: 100%;
+    height: 50vh;
+    background-color: aliceblue;
+    font-style: italic;
+    color: #2B3467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+
+.divClass1{
+    position: relative;
+}
+
+.positionabsolute01{
+    position:absolute;
+    right:5px;
+    top: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.imageD{
+  width: 100%;
+}
+
+.capitais{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.capitais > div{
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #888888;
+  margin: 10px;
+}
+
+.capitais img{
+  border-radius: 20px 0px 0px 20px;
+  height: 100%;
+}
+
+.capitais div div:last-child{
+  width: 150px;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.circulo{
+
+  width: 50px;
+  height: 50px;
+  background-color: #2B3467;
+  border-radius: 50px;
+}
+
+.contentorCirculos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
