@@ -1,54 +1,55 @@
 * {
-  font-family: 'Changa', sans-serif;
+  font-family: "Changa", sans-serif;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
-
 
 .flex-container {
   display: flex;
   justify-content: center;
 }
 
-.divClass{
-    width: 100%;
-    height: 50vh;
-    background-color: aliceblue;
-    font-style: italic;
-    color: #2B3467;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-}
-
-.divClass1{
-    position: relative;
-}
-
-.positionabsolute01{
-    position:absolute;
-    right:5px;
-    top: 10px;
-    font-size: 15px;
-    color: white;
-    text-align: justify;
-}
-
-.imageD{
+.divClass {
   width: 100%;
+  height: 50vh;
+  background-color: aliceblue;
+  font-style: italic;
+  color: #2b3467;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
 }
 
-.capitais{
-  display:flex;
+.divClass1 {
+  position: relative;
+  height: 100vh;
+}
+
+.positionabsolute01 {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+}
+
+.imageD {
+  width: 100%;
+  height: 100%;
+}
+
+.capitais {
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   background-color: aliceblue;
   padding: 50px;
 }
 
-.capitais > div{
+.capitais > div {
   float: left;
   display: flex;
   justify-content: space-around;
@@ -57,12 +58,12 @@
   margin: 10px;
 }
 
-.capitais img{
+.capitais img {
   border-radius: 20px 0px 0px 20px;
   height: 100%;
 }
 
-.capitais div div:last-child{
+.capitais div div:last-child {
   width: 150px;
   background-color: aliceblue;
   padding: 20px;
@@ -72,19 +73,352 @@
   align-items: center;
 }
 
-
-.circulo{
-
-  width: 50px;
-  height: 50px;
-  background-color: #2B3467;
-  border-radius: 50px;
+.capitais p {
+  color: black;
 }
 
-.contentorCirculos{
+header {
+  position: sticky;
+  height: 10vh;
+  background: #2b3467;
+  color: white;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+header div {
+  font-size: 1em;
+  padding: 1em;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: left;
+}
+
+.footer {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2vw;
+  align-items: center;
+}
+
+.lisbon > img {
+  clip: rect(60px 0px 0px 0px);
+}
+
+.textCapitais {
+  width: 100%;
+  text-align: center;
+  color: #2b3467;
+  background-color: #fcffe7;
+}
+
+.textPratosTipicos {
+  width: 100%;
+  text-align: center;
+  color: #2b3467;
+  background-color: #fcffe7;
+}
+
+.textDocesTipicos {
+  width: 100%;
+  text-align: center;
+  color: #2b3467;
+  background-color: #fcffe7;
+}
+
+.contentorComidas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.contentorDoces {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.foodCard {
+  display: block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodImagem {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  width: 100%;
 }
+
+.foodBruxelas {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodBelgica.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodBudapeste {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodBudapeste.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodLisboa {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodLisboa.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodLondres {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodLondres.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodMilao {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodMilao.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodParis {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodParis.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodPraga {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodPraga.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodReykiavik {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodReykiavik.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodRoma {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodRoma.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodVarsovia {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodVarsovia.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.foodViena {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(pratosTipicos/foodViena.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.docesCard {
+  display: block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.doceImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.doceBruxelas {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceBelgica.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceBudapeste {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceBudapeste.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceLisboa {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceLisboa.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceLondres {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceLondres.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceMilao {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceMilao.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceParis {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceParis.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.docePraga {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/docePraga.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceReykiavik {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceReykiavik.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceRoma {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceRoma.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceVarsovia {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceVarsovia.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.doceViena {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(docesTipicos/doceViena.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+
 
