@@ -484,7 +484,7 @@ a:hover {
 
 .textRestauranteH4 {
   background-color: aliceblue;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   text-decoration: none;
 }
@@ -494,4 +494,115 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.restauranteBruxelas {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/restBruxelas.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteBudapeste {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resBudapeste.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteLisboa {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resLisboa.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteLondres {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resLondres.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteMilao {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resMilao.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteParis {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resParis.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restaurantePraga {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resPraga.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteReykiavik {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resReykiavik.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+
+.restauranteRoma {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resRoma.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteVarsovia {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resVarsovia.avif);
+  background-size: cover;
+  text-align: center;
+}
+
+.restauranteViena {
+  width: 120px;
+  height: 120px;
+  background-color: #2b3467;
+  border-radius: 120px;
+  background-image: url(restaurantesCapitais/resViena.avif);
+  background-size: cover;
+  text-align: center;
 }
