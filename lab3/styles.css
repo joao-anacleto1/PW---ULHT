@@ -7,7 +7,9 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url(extraImagens/iconmonstr-cook-3.svg), default;
 }
+
 
 .flex-container {
   display: flex;
@@ -48,10 +50,11 @@ html {
 .capitais {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   background-color: aliceblue;
   padding: 50px;
 }
+
 
 .capitais > div {
   float: left;
@@ -188,18 +191,20 @@ a:hover {
 .contentorComidas {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   background-color: aliceblue;
   padding: 50px;
 }
 
+
 .contentorDoces {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   background-color: aliceblue;
   padding: 50px;
 }
+
 
 .foodCard {
   display: block;
@@ -470,7 +475,7 @@ a:hover {
 .contentorRestaurantes {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   background-color: aliceblue;
   padding: 50px;
 }
@@ -664,6 +669,24 @@ footer {
   grid-template-rows: 10vh 1fr 0px;
 }
 
+.main-grid-02 {
+  background-image: url(extraImagens/annie-spratt-BAj9EOZiDaE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.aside-grid-02 {
+  background-image: url(extraImagens/angele-kamp--OQbUQce54k-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.nav-grid-02 {
+  background-color: #EEEEEE;
+}
+
 .grid-container-02 {
   display: grid;
   height: 100vh;
@@ -681,6 +704,27 @@ footer {
   grid-template-rows: 10vh 20vh 1fr 30vh 0;
 }
 
+.main-grid-03 {
+  background-image: url(extraImagens/luca-severin-kdN6IIjq_mE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.aside-grid-03 {
+  background-image: url(extraImagens/dennis-irorere-vr2lk6bo67I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.nav-grid-03 {
+  background-image: url(extraImagens/aron-visuals-LryOyGjm1bo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
 .grid-container-03 {
   display: grid;
   height: 100vh;
@@ -695,6 +739,28 @@ footer {
   grid-template-columns: 1fr 3fr 2fr;
   grid-template-rows: 10vh 88vh 0fr;
 }
+
+.main-grid-04 {
+  background-image: url(extraImagens/khachik-simonian-7DbiigrZ-iU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.aside-grid-04 {
+  background-image: url(extraImagens/viktoria-spokojna-HnOQIEnbDUA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.nav-grid-04 {
+  background-image: url(extraImagens/guillermo-latorre-Y44x1mQB2Xc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
 
 .grid-container-04 {
   display: grid;
@@ -712,6 +778,29 @@ footer {
   grid-template-rows: 10vh 1fr 1fr 0vh;
 }
 
+
+.main-grid-05 {
+  background-image: url(extraImagens/guillermo-latorre-m-7qmB3dehs-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.aside-grid-05 {
+  background-image: url(extraImagens/zhi-xuan-hew-MIwkEqT5f_I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.nav-grid-05 {
+  background-image: url(extraImagens/luther-m-e-bottrill-PQkvbcqBHGQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+
 .grid-container-05 {
   display: grid;
   height: 100vh;
@@ -727,6 +816,28 @@ footer {
   grid-template-columns: 1fr 3fr 2fr;
   grid-template-rows: 10vh 1fr 1fr 0vh;
 }
+
+.main-grid-06 {
+  background-image: url(extraImagens/james-kirkup-HHVfl_-3Gmo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.aside-grid-06 {
+  background-image: url(extraImagens/rui-alves-OshSuaCgso8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.nav-grid-06 {
+  background-image: url(extraImagens/tatiana-alves-53JiqanHPn0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
 
 .grid-container-06 {
   display: grid;
