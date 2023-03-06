@@ -5,6 +5,10 @@
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -77,6 +81,13 @@
   color: black;
 }
 
+.tamanho {
+  height: 10vh;
+  background-color: #2b3467;
+  color: white;
+  text-align: center;
+}
+
 header {
   position: sticky;
   height: 10vh;
@@ -99,6 +110,15 @@ header nav {
   justify-content: flex-end;
 }
 
+header a {
+  text-decoration: none;
+}
+
+.azinhos {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 nav a {
   padding: 20px;
   text-decoration: none;
@@ -113,14 +133,19 @@ a:hover {
 
 .titulo {
   text-align: left;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 .footer {
   height: 5vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 2vw;
   align-items: center;
+  color: white;
+  background-color: #2b3467;
 }
 
 .lisbon > img {
@@ -128,6 +153,10 @@ a:hover {
 }
 
 .textCapitais {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-style: oblique;
+  font-size: 2rem;
   width: 100%;
   text-align: center;
   color: #2b3467;
@@ -135,6 +164,10 @@ a:hover {
 }
 
 .textPratosTipicos {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-style: oblique;
+  font-size: 2rem;
   width: 100%;
   text-align: center;
   color: #2b3467;
@@ -142,6 +175,10 @@ a:hover {
 }
 
 .textDocesTipicos {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-style: oblique;
+  font-size: 2rem;
   width: 100%;
   text-align: center;
   color: #2b3467;
@@ -295,7 +332,6 @@ a:hover {
   width: 100%;
 }
 
-
 .docesCard {
   display: block;
   margin: 20px;
@@ -420,5 +456,42 @@ a:hover {
   text-align: center;
 }
 
+.textMelhorRestaurante {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-style: oblique;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: #2b3467;
+  background-color: #fcffe7;
+}
 
+.contentorRestaurantes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: aliceblue;
+  padding: 50px;
+}
 
+.restaurantesCard {
+  display: block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textRestauranteH4 {
+  background-color: aliceblue;
+  text-align: left;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.restauranteImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
