@@ -4,3 +4,149 @@
   padding: 0px;
   margin: 0px;
 }
+
+body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /*position: fixed;*/
+  background-image: url(https://source.unsplash.com/zuPXH2Nrzpg/1920x1080);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding: 0px 5%;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 88%;
+  align-items: center;
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.card {
+  width: 320px;
+  height: 340px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 20px 55px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  background-image: url(images/img-01.jpg);
+}
+
+.card2 {
+  background-image: url(images/img-02.avif);
+}
+
+.card3 {
+  background-image: url(images/img-03.avif);
+}
+
+.card4 {
+  background-image: url(images/img-04.jpg);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  color: #f6f7d4;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.text-right{
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.pzinhos{
+  font-weight: bold;
+  color: #000;
+  background-color: #F6F7D4;
+  border-radius: 8px;
+  opacity: 0.8;
+  justify-content: end;
+}
+
